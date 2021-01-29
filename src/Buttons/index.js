@@ -16,8 +16,8 @@ const Buttons = () => {
                 </div>
                 <div className={styles.buttonsLine}>
                     <Button size='large' theme='light' text='Channel Listing' Icon='Vector' />
-                    <Button size='large' theme='light' text='More Options' Icon='Group' />
-                    <Button size='large' theme='light' text='1 Selected' Icon='Uncheck' />
+                    <Button size='medium' theme='light' text='More Options' Icon='Group' />
+                    <Button size='medium' theme='light' text='1 Selected' Icon='Uncheck' />
                 </div>
 
             </div>

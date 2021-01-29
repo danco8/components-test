@@ -12,12 +12,12 @@ $White: #FFFFFF;
     align-items: center;
     display: flex;
     flex-flow: row;
-    justify-content: center;
 }
 
 .darkButton{
   background: $DarkGrey;
   color:$White;
+  justify-content: center;
 }
 
 .lightButton{

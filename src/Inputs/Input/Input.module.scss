@@ -1,0 +1,88 @@
+$grey: #B2B3BD;
+$black: #11142D;
+$purple: #6C5DD3;
+
+@mixin input{
+    color: black;
+    width: 43%;
+    margin-top: 5%;
+    font-size: 0.87rem;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: 0px;
+    text-align: left;
+    height: 14.2%;
+}
+
+@mixin placeholder{
+    color: $black;
+}
+
+.underlineInput{
+    @include input;
+    padding: 2.6% 0%;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 1px solid $grey;
+}
+.underlineInput::placeholder{
+    @include placeholder;
+}
+
+.inputLabelWrapper{
+    display: flex;
+    flex-flow: column;
+    margin-top: 5.5%;
+    width: 43%;
+}
+
+.label{
+    color:$grey;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.withBackgroundInput{
+    @include input;
+    background: #ffeeeeb8;
+    border-radius: 8px;
+    border: 0;
+    // padding: 11.7% 145% 11.7% 12%;;
+    width: 93.5%;
+    height: 100%;
+    padding-left:23px;
+}
+
+.withBackgroundInput::placeholder{
+    @include placeholder;
+    color:black;
+}
+
+.withBackgroundInput:focus{
+    outline: 0;
+}
+
+.outlinedInput{
+    @include input;
+    background: #ffeeeeb8;
+    border-radius: 8px;
+    // padding: 11.7% 145% 11.7% 12%;
+    border: 2px solid $purple;
+    width: 93.5%;
+    height: 100%;
+    padding-left:23px;
+}
+
+.outlinedInput::placeholder{
+    @include placeholder;
+    color:black;
+}
+
+.outlinedInput:focus{
+    outline: 0;
+}

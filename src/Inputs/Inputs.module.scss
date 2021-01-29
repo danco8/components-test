@@ -1,0 +1,19 @@
+.root{
+    margin-left:28.35%;
+    margin-right:28.65%;
+    display: flex;
+    flex-flow: column;
+    height: 10.52%;
+}
+
+.inputsContainter{
+    display: flex;
+    flex-flow: column;
+}
+
+.inputsLine{
+    display:flex;
+    flex-flow: row;
+    justify-content: space-between;
+    height: 144px;
+}
