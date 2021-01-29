@@ -1,0 +1,25 @@
+$black: #11142D;
+$lightBlue: #A0D7E7;
+
+.header{
+    left: 0;
+    top: 0;
+    font-family: 'Poppins';
+    color:$black;
+    letter-spacing: -1px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 250%;
+    text-align: left;
+    margin-bottom:0.7%;
+}
+
+.underline{
+    height: 8px;
+    width: 40px;
+    left: 0px;
+    top: 13px;
+    border-radius: 4px;
+    background:$lightBlue;
+    margin-bottom: 1.2%; 
+}

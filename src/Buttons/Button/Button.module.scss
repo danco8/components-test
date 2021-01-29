@@ -1,0 +1,44 @@
+$DarkGrey: #1B1D21;
+$BackgroundWhite: #FAFAFA;
+$White: #FFFFFF;
+
+@mixin button{
+  outline: none;
+  box-sizing: border-box;
+    border: $White;
+    font-family: 'Inter';
+    font-weight: 600;
+    border-radius: 16px;
+    align-items: center;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+}
+
+.darkButton{
+  background: $DarkGrey;
+  color:$White;
+}
+
+.lightButton{
+  background: $White;
+  color: $DarkGrey;
+}
+
+.smallButton{
+   @include button;
+    width: 20.94%;
+}
+
+.mediumButton{
+  @include button;
+    width: 30.12%;
+}
+
+.largeButton{
+  @include button;
+  width: 36.755%;
+}
+.buttonText{
+  padding-left: 10px;
+}

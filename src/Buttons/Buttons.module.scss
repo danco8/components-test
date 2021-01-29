@@ -1,0 +1,20 @@
+.root{
+    margin-left:28.35%;
+    margin-right:37.7%;
+    display: flex;
+    flex-flow: column;
+    height: 5.26%;
+}
+
+.buttonsContainer{
+    display: flex;
+    flex-flow: column;
+    margin-left:27%;
+    width: 71.8%;
+}
+.buttonsLine{
+    display: flex;
+    flex-flow: row;
+    margin-top:7%;
+    justify-content: space-around;
+}
