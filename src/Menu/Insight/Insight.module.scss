@@ -1,0 +1,31 @@
+$White: #FFFFFF;
+
+.root{
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    margin-left: 16.5%;
+    margin-top: 8%;
+    height: 30px;
+}
+
+.Text{
+    color: $White;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+    width: 112px;
+}
+.IconWrapper{
+    width: 18px;
+    height:18px;
+    margin-right:19px;
+}
+
+.divider{
+    margin-left:14.5%;
+    width: 65%;
+}
