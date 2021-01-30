@@ -1,11 +1,21 @@
-import React from "react";
+import React, { useState } from "react";
 import styles from './Search.module.scss';
 
 import Header from '../Header/index';
+import SearchBox from './SearchBox/index';
+import AdvanceSearch from './AdvanceSearch/index';
 
-const Search = (props) => {
+const Search = () => {
+    const [searchClicked, setSearchClicked] = useState(false);
     return (
-        <Header text='Search' />
+        <div className={styles.root}>
+            <Header text='Search' />{
+                searchClicked ?
+                    <AdvanceSearch closeAdvanceSearch={() => setSearchClicked(false)} />
+                    :
+                    <SearchBox searchBoxClicked={() => setSearchClicked(true)} />
+            }
+        </div>
     )
 };
 

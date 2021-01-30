@@ -1,0 +1,26 @@
+$purple: #6C5DD3;
+
+.iconContainer{
+    display: flex;
+    flex-flow: row;
+    margin-top: 70px;
+}
+@mixin bell{
+    margin-top: 20px;
+    background: white;
+    padding: 8px;
+    padding: 8px;
+    border-radius: 50%;
+    margin-left: 50%;
+}
+.bell{
+    @include bell;
+}
+.clickedBell{
+    @include bell;
+    background: $purple;
+
+}
+.bell:hover{
+   box-shadow: 1px 1px 1px 1px #ccc
+}

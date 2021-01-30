@@ -8,13 +8,14 @@ $grey:#808191;
 .searchBox{
     display: flex;
     flex-flow: row;
-    width:84px;
+    width:104px;
     height: 24px;
     outline:0;
     border: White;
     background: white;
-    margin-top: 50%;
-    padding: 0
+    margin-top: 50.48%;
+    padding: 0;
+    cursor: text;
 }
 
 .searchBoxText{
@@ -26,4 +27,8 @@ $grey:#808191;
     line-height: 20px;
     color: $grey;
     margin: 0px 16px;
+}
+
+.IconWrapepr{
+    height:20px;
 }

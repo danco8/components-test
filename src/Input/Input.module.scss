@@ -1,0 +1,58 @@
+$grey: #B2B3BD;
+$black: #11142D;
+$purple: #6C5DD3;
+$lightGrey: #E4E4E4;
+
+.root{
+    margin-left:28.35%;
+    margin-right:28.65%;
+    display: flex;
+    flex-flow: column;
+    height: 7.52%;
+}
+
+.inputLabelWrapper{
+    display: flex;
+    flex-flow: column;
+    margin-top: 5.5%;
+    width: 43%;
+}
+
+.label{
+    color:$grey;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+ .input{
+    color: $black;
+    width: 43%;
+    margin-top: 5%;
+    font-size: 0.87rem;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: 0px;
+    text-align: left;
+    height: 14.2%;
+    outline: 0;
+    background: $lightGrey;
+    border-radius: 8px;
+    border: 0;
+    width: 93.5%;
+    height: 56px;
+    padding-left:23px;
+ }
+
+ .input::placeholder{
+    color: $black;
+ }
+
+ input:focus{
+    border: 2px solid $purple;
+ }
+
+ 

@@ -1,7 +1,7 @@
 import styles from './App.module.scss';
 
 import Buttons from './Buttons/index';
-import Inputs from './Inputs/index';
+import Input from './Input/index';
 import Menu from './Menu/index';
 import Search from './Search/index';
 import Notification from './Notification/index';
@@ -13,7 +13,7 @@ function App() {
         <Search />
         <Notification />
       </div>
-      <Inputs />
+      <Input />
       <Buttons />
       <Menu />
     </div>

@@ -12,7 +12,7 @@ const Menu = () => {
             <Header text='Menu' />
             <div className={styles.menu} >
                 <div className={styles.logoWrapper}><Logo /></div>
-                <NavigationItem text='Dashboard' />
+                <NavigationItem text='Dashboard' active={true} />
                 <NavigationItem text='Inventory' />
                 <NavigationItem text='Affiliates' />
                 <NavigationItem text='Orders' />
