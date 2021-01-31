@@ -5,12 +5,17 @@ $White: #FFFFFF;
     flex-flow: row;
     height: 6.35%;
 }
+.container{
+    display: flex;
+    flex-flow: column;
+}
 .menuLine{
     display: flex;
     flex-flow: row;
     align-items: center;
     margin-left: 16.5%;
     height: 30px;
+    margin-top: 5.9%;
 }
 .Text{
     color: $White;
@@ -18,14 +23,15 @@ $White: #FFFFFF;
     font-style: normal;
     font-weight: 600;
     line-height: 20px;
-    letter-spacing: 0px;
+    letter-spacing: 1px;
     text-align: left;
-    width: 112px;
+    width: 90%;
+    margin-bottom: 2%;
 }
 .IconWrapper{
     width: 18px;
     height:18px;
-    margin-right:19px;
+      margin-right: 11.3%;
 }
 
 .divider{

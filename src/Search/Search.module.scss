@@ -8,8 +8,8 @@ $grey:#808191;
 .searchBox{
     display: flex;
     flex-flow: row;
-    width:84px;
-    height: 24px;
+    width:75%;
+    height: 2.4%;
     outline:0;
     border: White;
     background: white;
@@ -18,12 +18,12 @@ $grey:#808191;
 }
 
 .searchBoxText{
-    padding-left: 18px;
+    padding-left: 17%;
     font-family: Inter;
     font-style: normal;
     font-weight: 600;
     font-size: 14px;
     line-height: 20px;
     color: $grey;
-    margin: 0px 16px;
+    margin: 0% 15%;
 }

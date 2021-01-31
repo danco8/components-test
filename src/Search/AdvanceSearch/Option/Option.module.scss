@@ -8,7 +8,7 @@ $Black: #11142D;
     // height: 6.35%;
     
 }
-.menuLine{
+.line{
     display: flex;
     flex-flow: row;
     align-items: center;
@@ -22,21 +22,11 @@ $Black: #11142D;
     line-height: 20px;
     letter-spacing: 0px;
     text-align: left;
-    width: 112px;
-    margin-left:15px;
-}
-.IconWrapper{
-    width: 18px;
-    height:18px;
-    margin-right:19px;
-}
-
-.divider{
-    margin-left:14.5%;
-    width: 65%;
+    width: 80%;
+    margin-left:7%;
 }
 
 .arrow{
-    margin-left: 16px;
-    margin-right: 26px;
+    margin-left: 5%;
+    margin-right: 13%;
 }
