@@ -11,7 +11,7 @@ const Card = (props) => {
             </div>
             <div className={styles.notification}>
                 <div className={styles.headerContainer}> <p className={styles.header}>{props.header} </p> <p className={styles.time}> {props.time}</p></div>
-                <div className={styles.contentContainer}> <p className={styles.regularCotnent}>{props.regularContent}  </p> <p className={styles.linkedContent}>Collab Design </p></div>
+                <div className={styles.contentContainer}> <p className={styles.regularCotnent}>{props.regularContent}  </p> <p className={styles.linkedContent}>{props.linkedContent} </p></div>
             </div>
 
         </div>

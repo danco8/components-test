@@ -11,12 +11,12 @@ const Notifications = (props) => {
             <div className={styles.recents}>
                 <p className={styles.smallHeader}>Recent Notification </p>
                 <div className={styles.cards}>
-                    <Card header='New Order' time='8h' regularContent='Commented on' />
-                    <Card header='Glenn Greer' time='12h' regularContent='Commented on' />
-                    <Card header='Sarah Saunders' time='16h' regularContent='Commented on' />
-                    <Card header='Sarah Saunders' time='21h' regularContent='Just pushaded' />
-                    <Card header='Sarah Saunders' time='22h' regularContent='Sent you a message 📪 ' />
-                    <Card header='Sarah Saunders' time='22h' regularContent='Liked' />
+                    <Card header='New Order' time='8h' regularContent='Commented on' linkedContent='Collab Design' />
+                    <Card header='Glenn Greer' time='12h' regularContent='Commented on' linkedContent='Collab Design' />
+                    <Card header='Sarah Saunders' time='16h' regularContent='Commented on' linkedContent='Collab Design' />
+                    <Card header='Sarah Saunders' time='21h' regularContent='Just pushaded' linkedContent='Collab Design' />
+                    <Card header='Sarah Saunders' time='22h' regularContent='Sent you a message 📪 ' linkedContent='' />
+                    <Card header='Sarah Saunders' time='22h' regularContent='Liked' linkedContent='Collab Design' />
                 </div>
                 <button className={styles.button}> See all incoming activity</button>
             </div>
